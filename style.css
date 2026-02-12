@@ -1,0 +1,22 @@
+.navbar-custom {
+    background-color: indigo;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: lightgray;
+}
+
+body {
+    background-color: indigo;
+    color: white;
+}
+
+card-img-top {
+    width: 10px;
+    height: auto;
+    border-radius: 10px;
+}
