@@ -1,22 +1,54 @@
 .navbar-custom {
-    background-color: indigo;
+    background-color: #F0FFFF;
 }
 
 .navbar-custom .nav-link {
-    color: white;
+    color: black;
 }
 
 .navbar-custom .nav-link:hover {
-    color: lightgray;
+    color: darkgray;
+}
+
+h1 {
+    background-color: #F0FFFF;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    background-color: indigo;
-    color: white;
+    background-color: #F0FFFF;
+    color: black;
+    font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
 }
 
 card-img-top {
     width: 10px;
     height: auto;
     border-radius: 10px;
+}
+
+
+ card {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
+ }
+
+.carousel-card {
+  max-width: 900px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  display: block;
 }
