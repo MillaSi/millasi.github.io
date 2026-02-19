@@ -1,0 +1,25 @@
+.navbar-custom {
+    background-color: #F0FFFF;
+}
+
+.navbar-custom .nav-link {
+    color: black;
+}
+
+.navbar-custom .nav-link:hover {
+    color: darkgray;
+}
+
+h1 {
+    background-color: #F0FFFF;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #F0FFFF;
+    color: black;
+    font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
+}
