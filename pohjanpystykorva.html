@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Sivu Pohjanpystykorvasta JSON</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>JSON testi sivu Pohjanpystykorvista</h1>
+    <div id="vastaus">
+</div>
+
+    <script>
+        function kerro(data) {
+            var teksti = "";
+            teksti = "<h1>" + data.rotu + "</h1>";
+            teksti += "<p>" + data.kuvaus.yleiskuvaus + "</p>";
+            teksti += "<p>Koko: " + data.kuvaus.koko + "</p>";
+            teksti += "<p>Karva: " + data.kuvaus.karva + "</p>";
+            teksti += "<p>Luonne: " + data.kuvaus.luonne + "</p>";
+            teksti += "<p>Terveys: " + data.kuvaus.terveys + "</p>";
+            document.getElementById("vastaus").innerHTML = teksti;
+        }
+
+        fetch('https://raw.githubusercontent.com/MillaSi/millasi.github.io/main/pohjikset.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (responsejson) {
+            kerro(responsejson);
+        });
+
+    </script>
+</body>
+</html>
