@@ -1,0 +1,14 @@
+{
+    "rotu": "Pohjanpystykorva",
+    "kuvaus": {"yleiskuvaus":"Pohjanpystykorva on suomalainen koirarotu",
+    "koko":"Pohjanpystykorva on keskikokoinen koira, joka painaa yleensä 20-30 kg.",
+    "karva":"Pohjanpystykorvalla on tiheä ja lyhyt karva, joka suojaa sitä kylmältä ilmastolta.",
+    "luonne":"Pohjanpystykorva on älykäs, energinen ja uskollinen rotu. Se on myös hyvä metsästyskoira ja sopii hyvin aktiivisille perheille.",
+    "terveys":"Pohjanpystykorva on yleensä terve rotu, mutta kuten kaikki koirat, se voi kärsiä tietyistä terveysongelmista, kuten lonkkavikasta ja silmäsairauksista."
+},
+    "käyttötarkoitus":[
+        "Metsästyskoira",
+        "Seurakoira",
+        "Koiraharrastus"
+    ]
+}
